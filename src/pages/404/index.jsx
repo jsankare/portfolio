@@ -2,39 +2,59 @@ import React from "react";
 import styled from "styled-components";
 import colors from '../../colors'
 
-const Container = styled.section``
+const Container = styled.section`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+    @media (max-width: 500px) {
+        height: 100vh;
+    }
+`
 
-const ContentContainer = styled.div``
+const ContentContainer = styled.div`
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
 
-const Background = styled.img`
+const Picture = styled.img`
     width: 100%;
-    height: 800px;
-    position: relative;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    @media (max-width: 768px) {
+        max-width: 200px;
+        width: 200px;
+    }
 `
 
 const Title = styled.h1 `
-    position: absolute;
-    color: ${colors.primary};
-    top: 25%;
-    left: 50%;
-    font-size: 80px;
+    color: ${colors.secondary_variant};
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
 `
 
-const Subtitle = styled.h3`
-    position: absolute;
-    color: ${colors.primary};
-    top: 75%;
-    left: 50%;
+const Subtitle = styled.a`
+    font-size: 20px;
+    text-align: center;
+    color: ${colors.secondary_variant};
+    text-decoration: none;
 `
 
 const Missdirection = () => {
     return (
         <Container>
-            <Background src="https://cdn.dribbble.com/users/1285451/screenshots/6483584/dribbble_space.jpg?compress=1&resize=800x600&vertical=top" />
-            <ContentContainer>
-                <Title>404</Title>
-                <Subtitle>Vous vous êtes perdu ?</Subtitle>
-            </ContentContainer>
+            <Picture src="/images/astronaut.png" />
+                <ContentContainer>
+                    <Title>404</Title>
+                    <Subtitle href="/" >Retour sur la page d'accueil</Subtitle>
+                </ContentContainer>
+            <Picture src="/images/pc_astronaut.png" />
         </Container>
     );
 };
