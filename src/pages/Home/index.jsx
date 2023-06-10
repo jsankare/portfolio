@@ -7,8 +7,6 @@ import Showcase from '../../components/Showcase';
 import Presentation from '../../components/Presentation';
 import Testimonials from '../../components/Testimonials';
 
-import responsiveImage from '../../assets/prlx.jpg'
-import laptopImage from '../../assets/laptop.jpg'
 import colors from '../../colors'
 
 const Wrapper = styled.div `
@@ -28,7 +26,7 @@ const App = () => {
         <Center>
           <Presentation/>
         </Center>
-        <Divider image={laptopImage} header={'Fiable, créatif, organisé'} subheader={'Capable de répondre à tous vos besoins'} color={colors.primary} />
+        <Divider image='/images/laptop.jpg' header={'Fiable, créatif, organisé'} subheader={'Capable de répondre à tous vos besoins'} color={colors.primary} />
         <Skills/>
         <Divider image='/images/devices.jpg' header={'Compatible Mobile, Tablettes & P.C'} subheader={'Développement Web Reponsive'} color={colors.primary} />
         <Showcase/>
