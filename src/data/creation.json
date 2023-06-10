@@ -1,0 +1,216 @@
+[
+    {
+        "id": "MLE1",
+        "picture": "https://i.postimg.cc/bvkhdw5M/logo.png",
+        "title": "Kasa",
+        "subtitle": "Projet FrontEnd",
+        "wip": false,
+        "link": "",
+        "figures" : [
+            "https://i.postimg.cc/Y0FRtnRH/kasa.png",
+            "https://i.postimg.cc/bNRdGRZx/temp.png",
+            "https://i.postimg.cc/yxQ555fh/kasa.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/react.png",
+                "name": "React"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
+    },
+    {
+        "id": "K4P2",
+        "picture": "https://i.postimg.cc/SNZ4t8Gq/hotTakes.png",
+        "title": "Hot Takes",
+        "subtitle": "Projet BackEnd",
+        "wip": false,
+        "link": "",
+        "figures" : [
+            "https://i.postimg.cc/kGLQDgbB/hottakes.png",
+            "https://i.postimg.cc/HLwR1jNW/hottakes.png",
+            "https://i.postimg.cc/nL6HLsFy/hottakes.png",
+            "https://i.postimg.cc/JnLjkzKF/hottakes.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/node.png",
+                "name": "NodeJS"
+            },
+            {
+                "url": "/images/mongoDB.png",
+                "name": "MongoDB"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
+    },
+    {
+        "id": "SOL2",
+        "picture": "https://i.postimg.cc/yYGxZWfY/logo.png",
+        "title": "Graines de Meaux",
+        "subtitle": "Micro-crêche",
+        "wip": false,
+        "link": "https://grainesdemeaux.com/",
+        "figures" : [
+            "https://i.postimg.cc/G3HZT39q/grainesdemeaux.png",
+            "https://i.postimg.cc/hjJpvjMm/grainesdemeaux.png",
+            "https://i.postimg.cc/vHvLQfMj/grainesdemeaux.png",
+            "https://i.postimg.cc/wvc3h5WY/grainesdemeaux.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/wordpress.png",
+                "name": "Wordpress"
+            }
+        ],
+        "description": "Pour un client final, j'ai conceptualisé et réalisé un site Wordpress pour une micro-crêche. Cela m'a permis d'apprendre cette technologie et de gérer de multiples plugins. J'ai également pu améliorer mes compétences en design en effectuant les maquettes sur Figma."
+    },
+    {
+        "id": "5K33",
+        "picture": "https://i.postimg.cc/JhxWj21c/marilou-logo-cropped.png",
+        "title": "Marilou",
+        "subtitle": "Pet-sitting",
+        "wip": false,
+        "link": "https://marilou-pet-sitting.fr/",
+        "figures" : [
+            "https://i.postimg.cc/tChy7Rm8/marilou.png",
+            "https://i.postimg.cc/T1J7MsCN/marilou.png",
+            "https://i.postimg.cc/GtgDyJ2h/marilou.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "description": "Ce projet vitrine de pet-sitting a été réalisé en pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
+    },
+    {
+        "id": "SK24",
+        "picture": "https://i.postimg.cc/bNncmJyv/transparent-historia.png",
+        "title": "Historia",
+        "subtitle": "Culture x Pokemon",
+        "wip": true,
+        "link": "",
+        "figures" : [
+            "https://i.postimg.cc/y8h7k6Wk/historia.png",
+            "https://i.postimg.cc/9M92HW3m/historia.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/react.png",
+                "name": "React"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. Les associer avec le format Pokemon pour une approche ludique, et j'espère pouvoir faire découvrir a certains curieux des choses interessantes."
+    },
+    {
+        "id": "PMP5",
+        "picture": "https://i.postimg.cc/9QpWBMb7/logo.png",
+        "title": "My Dungeon Buddy",
+        "subtitle": "Jeu de rôle",
+        "wip": true,
+        "link": "",
+        "figures" : [
+            "https://i.postimg.cc/Y0FRtnRH/kasa.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/react.png",
+                "name": "React"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            },
+            {
+                "url": "/images/styled.png",
+                "name": "Styled Components"
+            }
+        ],
+        "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En developpement avec un ami dev senior, j'apprend de nouvelles façons de travailler sous la supervisation d'un codeur appliqué."
+    },
+    {
+        "id": "85R6",
+        "picture": "https://static.wikia.nocookie.net/picsou/images/8/87/Dingo_enfant.jpg/revision/latest?cb=20131207223807&path-prefix=fr",
+        "title": "Portfolio",
+        "subtitle": "CV virtuel",
+        "wip": true,
+        "link": "/",
+        "figures" : [
+            "/images/slider/portfolio.png",
+            "/images/slider/portfolio2.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/react.png",
+                "name": "React"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            },
+            {
+                "url": "/images/styled.png",
+                "name": "Styled Components"
+            }
+        ],
+        "description": "J'ai créé ce CV en ligne pour me challenger sur React et le Styled Component. J'ai pu appliquer tout ce que j'ai appris precedemment pour créer quelque chose qui me ressemble."
+    }
+]
