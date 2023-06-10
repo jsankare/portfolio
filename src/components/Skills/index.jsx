@@ -89,6 +89,9 @@ const SkillsWrapper = styled.div`
     margin: 50px 0;
     padding: 20px;
     max-width: 1500px;
+    @media (max-width: 500px) {
+    gap: 20px;
+  }
 `
 
 const Skills = () => {

@@ -21,17 +21,39 @@ const Container = styled.div`
     max-width: 200px;
     max-height: 250px;
   }
+  @media (max-width: 500px) {
+    max-width: 400px;
+    max-height: 100px;
+    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+    &:hover{
+        transform: scale(1.05);
+    }
+  }
 `
 
 const Logo = styled.img`
     width: 100px;
     height: 100px;
     margin-top: 5px;
+    @media (max-width: 500px) {
+    width: 50px;
+    height: 50px;
+  }
 `
 
-const Title = styled.h3``
+const Title = styled.h3`
+    @media (max-width: 500px) {
+    display: none;
+  }
+`
 
-const Description = styled.p``
+const Description = styled.p`
+    @media (max-width: 500px) {
+    margin: 0;
+  }
+`
 
 const Skill = ({logo, title, description}) => {
     return (
