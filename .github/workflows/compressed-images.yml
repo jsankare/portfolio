@@ -25,10 +25,6 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           compressOnly: true
-      - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
-        run: |
-            git config --global user.name "COMMIT_AUTHOR"
-            git config --global user.email "username@users.noreply.github.com"
-            git add -A
-            git commit -m "COMMIT_MESSAGE"
-            git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+            commit_message: Compress images
