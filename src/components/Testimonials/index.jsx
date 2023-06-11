@@ -11,14 +11,14 @@ const data = [
         position:"Marilou"
     },
     {
-        title:"De qui on parle ?",
+        title:"Eleve d'Openclassrooms",
         description:'Lorem ipsum dolor sit amet, consectetur elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.',
         name:"Abdoulaye Wane",
-        position:"Mentor Openclassroom"
+        position:"Mentor Openclassrooms"
     },
     {
-        title:"faux commentaire merci",
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.',
+        title:"Professionnel & sérieux",
+        description:`Jordan a su me conseiller du début à la fin pour la création de mon site internet. Il a été fort de proposition et dans le même temps à l'écoute de mes besoins. Très réactif, il a su s'adapter à toutes les situations. Le résultat est Super, Merci !`,
         name:"Johanna",
         position:"Graines de Meaux"
     },
@@ -26,7 +26,7 @@ const data = [
         title:`Soif d'apprentissage`,
         description:`Jordan est un jeune développeur frontend motivé par les choses bien faites, les besoins du client et une envie de comprendre les retours qu'on peut lui fournir`,
         name:"Vincent",
-        position:"Developpeur Senior"
+        position:"Développeur Senior"
     }
 ]
 

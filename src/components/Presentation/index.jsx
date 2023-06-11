@@ -49,8 +49,8 @@ const Presentation = () => {
             <Block>
                 <Title content='A propos de moi'/>
                     <Description>
-                        Bienvenue à vous sur mon portfolio en ligne. Après avoir travaillé dans divers milieux, notamment le fret ainsi que les colleges & lycées, j'ai 
-                        décidé de me prendre en main et d'effectuer une reconvertion professionelle, au cours de laquelle j'ai décroché un diplôme de développeur web de niveau 5 (Bac +2) 
+                        Bienvenue à vous sur mon portfolio en ligne. Après avoir travaillé dans divers milieux, notamment le fret ainsi que les collèges & lycées, j'ai 
+                        décidé de me prendre en main et d'effectuer une reconversion professionelle, au cours de laquelle j'ai décroché un diplôme de développeur web de niveau 5 (Bac +2) 
                         <br />
                         <br />
                         Passionné d'informatique depuis le lycée (coucou les programmes sur la TI-83), j'ai toujours plus ou moins eu un oeil sur l'informatique et ses technologies. Aidé par un

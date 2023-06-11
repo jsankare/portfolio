@@ -31,13 +31,13 @@ let data = [
     {
         id: '47M5',
         title: 'Wordpress',
-        description: `Tients tiens .. Un CMS ? Oui bon et bien il faut bien s'interesser un peu à tout aussi`,
+        description: `Tients tiens .. Un CMS ? Oui bon et bien il faut bien s'intéresser un peu à tout aussi`,
         image: '/images/wordpress.png',
     },
     {
         id: 'BM86',
         title: 'Node',
-        description: `C'est complètement différent de tout ce qui précède dis moi ? Complexe, mais fort interessant`,
+        description: `C'est complètement différent de tout ce qui précède dis moi ? Complexe, mais fort intéressant`,
         image: '/images/node.png',
     },
     {
