@@ -17,7 +17,7 @@ const data = [
         position:"Mentor Openclassroom"
     },
     {
-        title:"Gratuit c'est pas cher",
+        title:"faux commentaire merci",
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.',
         name:"Johanna",
         position:"Graines de Meaux"
