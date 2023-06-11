@@ -7,14 +7,22 @@ const Container = styled.div`
     width: 100%;
     max-width: 350px;
     max-height: 400px;
-    min-height: 320px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: top;
+    @media (max-width: 500px){
+        max-width: 250px;
+    }
 `
 
 const Title = styled.h3`
     font-size: 22px;
+    text-align: center;
+    @media (max-width: 500px){
+        font-size: 18px;
+    }
 `
 
 const Description = styled.p`
@@ -22,6 +30,10 @@ const Description = styled.p`
     width: 100%;
     max-width: 300px;
     text-align: center;
+    font-size: 16px;
+    @media (max-width: 500px){
+        font-size: 14px;
+    }
 `
 
 const Name = styled.h4`

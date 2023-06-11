@@ -20,10 +20,10 @@ const PageWrapper = styled.div`
   display: flex;
   width: 100%;
   max-width: 1200px;
-  gap: 100px;
   @media (max-width : 900px) {
     flex-direction: column;
     align-items: center;
+    gap: 100px;
   }
 `
 
@@ -38,6 +38,12 @@ const FormWrapper = styled.div`
     align-items: center;
     padding: 0 20px;
     max-width: 400px;
+  }
+  @media (max-width: 500px) {
+    max-width: 250px;
+  }
+  @media (max-width: 300px) {
+    max-width: 200px;
   }
 `;
 
@@ -112,6 +118,7 @@ const FormHeading = styled.h3`
 
 const StyledForm = styled.form`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   gap: 10px;

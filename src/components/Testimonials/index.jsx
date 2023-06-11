@@ -23,8 +23,8 @@ const data = [
         position:"Graines de Meaux"
     },
     {
-        title:"Une plaie ce mec",
-        description:'Lorem ipsum dolor sit amet, consectetur elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.',
+        title:`Soif d'apprentissage`,
+        description:`Jordan est un jeune développeur frontend motivé par les choses bien faites, les besoins du client et une envie de comprendre les retours qu'on peut lui fournir`,
         name:"Vincent",
         position:"Developpeur Senior"
     }
