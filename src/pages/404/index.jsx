@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import colors from '../../colors'
+import { Helmet } from "react-helmet";
 
 const Container = styled.section`
     display: flex;
@@ -49,6 +50,10 @@ const Subtitle = styled.a`
 const Missdirection = () => {
     return (
         <Container>
+            <Helmet>
+                <title>JSankare - 404</title>
+                <meta name="description" content="Helmet application" />
+            </Helmet>
             <Picture src="/images/astronaut.png" />
                 <ContentContainer>
                     <Title>404</Title>

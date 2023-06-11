@@ -5,6 +5,8 @@ import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
 import cv from '../../assets/CV.png';
 
+import { Helmet } from "react-helmet";
+
 const Container = styled.section`
   display: flex;
   flex-direction: column;
@@ -247,6 +249,10 @@ const Contact = () => {
 
   return (
     <Container>
+      <Helmet>
+        <title>JSankare - Contact</title>
+        <meta name="description" content="CECI EST UNE DESCRIPTION" />
+      </Helmet>
       <Title content="Me contacter" />
       <PageWrapper>
         <FormWrapper>

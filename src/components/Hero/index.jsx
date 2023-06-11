@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import colors from '../../colors';
-import background from '../../assets/background2.jpg'
+import background from '../../assets/background.jpg'
 
 const HeroWrapper = styled.section`
   position: relative;

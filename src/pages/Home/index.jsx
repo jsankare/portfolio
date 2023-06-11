@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import React from 'react';
 import styled from 'styled-components';
 import Hero from '../../components/Hero';
@@ -22,6 +24,10 @@ const Center = styled.section`
 const App = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <title>JSankare</title>
+        <meta name="description" content="CECI EST UNE DESCRIPTION" />
+      </Helmet>
       <Hero />
         <Center>
           <Presentation/>

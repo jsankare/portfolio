@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import colors from '../../colors';
-import logo from '../../assets/logo.png';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
 
@@ -115,7 +114,7 @@ const Header = () => {
     <HeaderWrapper>
       <div>
         <StyledLink to="/">
-          <Logo src={logo} alt="Logo" />
+          <Logo src='/images/bear.webp' alt="Logo" />
         </StyledLink>
       </div>
       <LinksWrapper>

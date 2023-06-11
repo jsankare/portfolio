@@ -3,6 +3,7 @@ import { Navigate, useParams } from "react-router-dom";
 import data from "../../data/creation.json";
 import styled from "styled-components";
 import colors from '../../colors'
+import { Helmet } from "react-helmet";
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -133,6 +134,10 @@ const Closeup = () => {
 
   return (
     <Container>
+      <Helmet>
+        <title>JSankare - Projet</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <StyledCarousel showThumbs={false}>
         {project.figures.map((figure, index) => (
           <div key={index}>
