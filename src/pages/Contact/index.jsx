@@ -4,7 +4,6 @@ import colors from "../../colors";
 import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
 import cv from '../../assets/CV.png';
-
 import { Helmet } from "react-helmet";
 
 const Container = styled.section`
