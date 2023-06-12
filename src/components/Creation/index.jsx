@@ -26,6 +26,9 @@ const Image = styled.img`
 
 const Title = styled.h3`
     margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 `
 
 const Subtitle = styled.h4`

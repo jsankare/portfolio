@@ -13,16 +13,7 @@ const HeaderWrapper = styled.nav`
   height: 100%;
   max-height: 50px;
   position: relative;
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  }
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   @media (max-width: 1100px) {
     padding: 18px 40px;
   }
@@ -114,7 +105,7 @@ const Header = () => {
     <HeaderWrapper>
       <div>
         <StyledLink to="/">
-          <Logo src='/images/bear.webp' alt="Logo" />
+          <Logo src='/images/test.png' alt="Logo" />
         </StyledLink>
       </div>
       <LinksWrapper>
