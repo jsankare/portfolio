@@ -11,8 +11,15 @@ const data = [
         position:"Marilou"
     },
     {
-        title:"Eleve d'Openclassrooms",
-        description:'Lorem ipsum dolor sit amet, consectetur elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.',
+        title:`Très motivé, très déterminé`,
+        description:`J'ai été le mentor de Jordan durant son parcours de développeur Web chez Openclassrooms.
+        Tout au long de la formation, il a fait preuve d'une grande autonomie et d'une excellente
+        capacité à s'adapter aux nouveaux défis.
+         J'ai vu un étudiant très motivé, très déterminé et qui avait déjà de très bonnes bases en
+         développement web.
+        En résumé, je recommande fortement Jordan Sankaré en tant que développeur web.
+        Il possède toutes les compétences techniques, la motivation et les qualités personnelles
+        nécessaires pour réussir dans ce domaine.`,
         name:"Abdoulaye Wane",
         position:"Mentor Openclassrooms"
     },
