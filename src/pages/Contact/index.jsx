@@ -250,7 +250,7 @@ const Contact = () => {
     <Container>
       <Helmet>
         <title>JSankare - Contact</title>
-        <meta name="description" content="CECI EST UNE DESCRIPTION" />
+        <meta name="description" content="Contactez-moi pour discuter de vos besoins en développement web frontend. Je suis disponible pour des collaborations, des opportunités professionnelles et pour répondre à vos questions. " />
       </Helmet>
       <Title content="Me contacter" />
       <PageWrapper>

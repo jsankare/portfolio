@@ -52,7 +52,7 @@ const Missdirection = () => {
         <Container>
             <Helmet>
                 <title>JSankare - 404</title>
-                <meta name="description" content="Helmet application" />
+                <meta name="description" content="Oups ! Vous avez atteint une page introuvable. Retournez à mon portfolio en ligne pour découvrir mes projets, compétences et expériences en tant que développeur web frontend." />
             </Helmet>
             <Picture src="/images/astronaut.png" />
                 <ContentContainer>

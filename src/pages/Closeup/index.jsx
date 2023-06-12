@@ -69,8 +69,10 @@ const TagList = styled.ul`
 const SliderImage = styled.img`
   width: 100%;
   height: 100%;
-  max-width: 1000px;
   max-height: 500px;
+  @media (max-width: 768px) {
+    min-height: 200px;
+  }
 `
 
 const StyledCarousel = styled(Carousel)`
@@ -136,7 +138,7 @@ const Closeup = () => {
     <Container>
       <Helmet>
         <title>JSankare - Projet</title>
-        <meta name="description" content="Helmet application" />
+        <meta name="description" content="Découvrez en détail ce projet dans mon portfolio en ligne. En tant que développeur web frontend, j'ai conçu et développé cette expérience numérique en utilisant des technologies modernes pour créer une interface utilisateur intuitive et engageante." />
       </Helmet>
       <StyledCarousel showThumbs={false}>
         {project.figures.map((figure, index) => (

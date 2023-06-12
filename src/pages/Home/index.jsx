@@ -26,7 +26,7 @@ const App = () => {
     <Wrapper>
       <Helmet>
         <title>JSankare</title>
-        <meta name="description" content="CECI EST UNE DESCRIPTION" />
+        <meta name="description" content="Explorez mon portfolio en ligne et découvrez mes compétences en tant que développeur web frontend. Découvrez mes projets, compétences et expériences pour créer des expériences numériques exceptionnelles." />
       </Helmet>
       <Hero />
         <Center>
