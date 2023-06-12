@@ -4,7 +4,7 @@ import styled from "styled-components";
 import data from '../../data/creation.json';
 import Title from '../Layout/title'
 import Creation from '../Creation'
-import Mockup from '../../assets/Mockup2.png'
+import Mockup from '../../assets/mockup.png'
 
 const Container = styled.section`
     display: flex;

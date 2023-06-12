@@ -1,15 +1,19 @@
 [
     {
         "id": "MLE1",
-        "picture": "https://i.postimg.cc/bvkhdw5M/logo.png",
+        "picture": "/images/kasa/logo.png",
         "title": "Kasa",
         "subtitle": "Projet FrontEnd",
         "wip": false,
         "link": "",
         "figures" : [
-            "https://i.postimg.cc/Y0FRtnRH/kasa.png",
-            "https://i.postimg.cc/bNRdGRZx/temp.png",
-            "https://i.postimg.cc/yxQ555fh/kasa.png"
+            "/images/kasa/kasa.png",
+            "/images/kasa/kasa2.png",
+            "/images/kasa/kasa3.png",
+            "/images/kasa/kasa4.png",
+            "/images/kasa/kasa5.png",
+            "/images/kasa/kasa6.png",
+            "/images/kasa/kasa7.png"
         ],
         "tags": [
             {
@@ -33,16 +37,16 @@
     },
     {
         "id": "K4P2",
-        "picture": "https://i.postimg.cc/SNZ4t8Gq/hotTakes.png",
+        "picture": "/images/hottakes/logo.png",
         "title": "Hot Takes",
         "subtitle": "Projet BackEnd",
         "wip": false,
         "link": "",
         "figures" : [
-            "https://i.postimg.cc/kGLQDgbB/hottakes.png",
-            "https://i.postimg.cc/HLwR1jNW/hottakes.png",
-            "https://i.postimg.cc/nL6HLsFy/hottakes.png",
-            "https://i.postimg.cc/JnLjkzKF/hottakes.png"
+            "/images/hottakes/hottakes.png",
+            "/images/hottakes/hottakes2.png",
+            "/images/hottakes/hottakes3.png",
+            "/images/hottakes/hottakes4.png"
         ],
         "tags": [
             {
@@ -66,16 +70,16 @@
     },
     {
         "id": "SOL2",
-        "picture": "https://i.postimg.cc/yYGxZWfY/logo.png",
+        "picture": "/images/gdm/logo.png",
         "title": "Graines de Meaux",
         "subtitle": "Micro-crèche",
         "wip": false,
         "link": "https://grainesdemeaux.com/",
         "figures" : [
-            "https://i.postimg.cc/G3HZT39q/grainesdemeaux.png",
-            "https://i.postimg.cc/hjJpvjMm/grainesdemeaux.png",
-            "https://i.postimg.cc/vHvLQfMj/grainesdemeaux.png",
-            "https://i.postimg.cc/wvc3h5WY/grainesdemeaux.png"
+            "/images/gdm/gdm.png",
+            "/images/gdm/gdm2.png",
+            "/images/gdm/gdm3.png",
+            "/images/gdm/gdm4.png"
         ],
         "tags": [
             {
@@ -87,15 +91,15 @@
     },
     {
         "id": "5K33",
-        "picture": "https://i.postimg.cc/JhxWj21c/marilou-logo-cropped.png",
+        "picture": "/images/marilou/logo.svg",
         "title": "Marilou",
         "subtitle": "Pet-sitting",
         "wip": false,
         "link": "https://marilou-pet-sitting.fr/",
         "figures" : [
-            "https://i.postimg.cc/tChy7Rm8/marilou.png",
-            "https://i.postimg.cc/T1J7MsCN/marilou.png",
-            "https://i.postimg.cc/GtgDyJ2h/marilou.png"
+            "/images/marilou/marilou.png",
+            "/images/marilou/marilou2.png",
+            "/images/marilou/marilou3.png"
         ],
         "tags": [
             {
@@ -115,7 +119,7 @@
     },
     {
         "id": "SK24",
-        "picture": "https://i.postimg.cc/bNncmJyv/transparent-historia.png",
+        "picture": "/images/historia/logo.svg",
         "title": "Historia",
         "subtitle": "Culture x Pokemon",
         "wip": true,
@@ -146,7 +150,7 @@
     },
     {
         "id": "PMP5",
-        "picture": "https://i.postimg.cc/9QpWBMb7/logo.png",
+        "picture": "/images/mdb/logo.png",
         "title": "My Dungeon Buddy",
         "subtitle": "Jeu de rôle",
         "wip": true,
@@ -180,7 +184,7 @@
     },
     {
         "id": "85R6",
-        "picture": "https://static.wikia.nocookie.net/picsou/images/8/87/Dingo_enfant.jpg/revision/latest?cb=20131207223807&path-prefix=fr",
+        "picture": "/images/portfolio/logo.webp",
         "title": "Portfolio",
         "subtitle": "CV virtuel",
         "wip": true,

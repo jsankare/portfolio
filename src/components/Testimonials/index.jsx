@@ -17,7 +17,7 @@ const data = [
         capacité à s'adapter aux nouveaux défis.
          J'ai vu un étudiant très motivé, très déterminé et qui avait déjà de très bonnes bases en
          développement web.
-        En résumé, je recommande fortement Jordan Sankaré en tant que développeur web.
+        En résumé, je recommande fortement Jordan Sankare en tant que développeur web.
         Il possède toutes les compétences techniques, la motivation et les qualités personnelles
         nécessaires pour réussir dans ce domaine.`,
         name:"Abdoulaye Wane",
