@@ -10,8 +10,9 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     max-width: 280px;
-    max-height: 230px;
+    min-height: 400px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     border-radius: 25px;
     &:hover{
@@ -19,14 +20,17 @@ const Container = styled.div`
     }
     @media (max-width: 768px) {
     max-width: 200px;
-    max-height: 250px;
+    height: 420px;
   }
   @media (max-width: 500px) {
     max-width: 400px;
-    max-height: 100px;
+    max-height: 200px;
+    min-height: 150px;
     flex-direction: row;
     padding: 10px;
     gap: 5px;
+    height: auto;
+    justify-content: space-evenly;
     &:hover{
         transform: scale(1.05);
     }

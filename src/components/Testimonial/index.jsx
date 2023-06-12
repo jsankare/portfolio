@@ -30,6 +30,7 @@ const Title = styled.h3`
 
 const TruncatedDescription = styled.p`
     font-weight: bold;
+    margin: 0;
     width: 100%;
     max-width: 300px;
     text-align: center;
@@ -45,6 +46,7 @@ const TruncatedDescription = styled.p`
 `;
 
 const FullDescription = styled.p`
+    margin: 0;
     font-weight: bold;
     width: 100%;
     max-width: 300px;
@@ -65,6 +67,7 @@ const ExpandButton = styled.button`
 
 const Name = styled.h4`
     margin: 0;
+    margin-top: 5px;
 `;
 
 const Position = styled.p`

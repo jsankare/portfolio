@@ -9,7 +9,10 @@ const HeroWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
+  @media (max-width:500px){
+    height: 300px;
+    align-items: center;
+  }
 `;
 
 const BackgroundImage = styled.div`
@@ -26,9 +29,12 @@ const ContentWrapper = styled.div`
   flex-direction: column;
   position: absolute;
   left: 10%;
-  @media (max-width : 768px) {
+  @media (max-width : 500px) {
+    left: auto;
+    text-align: center;
     position: inline;
     align-items: center;
+    justify-content: center;
   }
 `
 
