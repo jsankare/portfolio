@@ -25,13 +25,13 @@ const data = [
     },
     {
         title:"Professionnel & sérieux",
-        description:`Jordan a su me conseiller du début à la fin pour la création de mon site internet. Il a été fort de proposition et dans le même temps à l'écoute de mes besoins. Très réactif, il a su s'adapter à toutes les situations. Le résultat est Super, Merci !`,
+        description:`Jordan a su me conseiller du début à la fin pour la création de mon site internet. Il a été fort de proposition et dans le même temps à l'écoute de mes besoins. Très réactif, il a su s'adapter à toutes les situations. Le résultat est super, Merci !`,
         name:"Johanna",
         position:"Graines de Meaux"
     },
     {
         title:`Soif d'apprentissage`,
-        description:`Jordan est un jeune développeur frontend motivé par les choses bien faites, les besoins du client et une envie de comprendre les retours qu'on peut lui fournir`,
+        description:`Jordan est un jeune développeur frontend motivé par les choses bien faites, les besoins du client et une envie de comprendre les retours qu'on peut lui fournir.`,
         name:"Vincent",
         position:"Développeur Senior"
     }

@@ -4,6 +4,7 @@ import colors from "../../colors";
 import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
 import cv from '../../assets/CV-Jordan-Sankare.jpg';
+import cvjs from '../../assets/Jordan-Sankare-CV.pdf';
 import { Helmet } from "react-helmet";
 
 const Container = styled.section`
@@ -302,15 +303,15 @@ const Contact = () => {
           </StyledForm>
         </FormWrapper>
         <Aside>
-          <Download href={cv} download="CV_Jordan_Sankare" >
+          <Download href={cvjs} download="CV_Jordan_Sankare" >
             <Vitae src={cv} />
           </Download>
           <DlWrapper>
-            <Download href={cv} download >Télécharger le CV</Download>
+            <Download href={cvjs} download >Télécharger le CV</Download>
           </DlWrapper>
         </Aside>
         <Banner>
-        <BannerDownload href={cv} download >Télécharger le CV</BannerDownload>
+        <BannerDownload href={cvjs} download >Télécharger le CV</BannerDownload>
         </Banner>
       </PageWrapper>
     </Container>

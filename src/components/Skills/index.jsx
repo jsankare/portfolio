@@ -7,7 +7,7 @@ let data = [
     {
         id: 'GLM1',
         title: 'HTML / CSS',
-        take: `Le début de tout dev. Un peu d'html et de css et nos premières pages statiques ambiance années 90' voient le jour`,
+        take: `Le début de tout dev. Un peu de HTML et de CSS, et nos premières pages statiques ambiance années 90' voient le jour`,
         description: `HTML & CSS sont les bases pour débuter dans le développement web. C'est pratique, simple, et ça permet de créer de petits projets sympatiques.`,
         image: '/images/htmlcss.png',
     },
@@ -21,7 +21,7 @@ let data = [
     {
         id: '4BA4',
         title: 'Styled Components',
-        take: `Un peu complexe au premier abord, ça devient vite intuitif et facile d'utilisation une fois la logique bien entrée en tête`,
+        take: `Un peu complexe au premier abord, cela devient vite intuitif et facile d'utilisation une fois la logique bien entrée en tête`,
         description: `Styled Components est une bibliothèque JavaScript pour styliser les composants web. Elle permet de définir des styles CSS de manière dynamique, directement dans le code JavaScript. Cela facilite la réutilisabilité des composants et la gestion des styles dans les applications. Avec Styled Components, nous pouvons créer des interfaces esthétiques et maintenables`,
         image: '/images/styled.png',
     },
@@ -42,7 +42,7 @@ let data = [
     {
         id: 'BM86',
         title: 'Node',
-        take: `Le premier pas dans le monde du back-end. C'est à la fois très similaire et extrèmement différent que le front-end. Une dualité quasiment philosophique entre familiarité et exploration`,
+        take: `Le premier pas dans le monde du back-end. C'est à la fois très similaire et extrêmement différent du front-end. Une dualité quasiment philosophique entre familiarité et exploration`,
         description: `Node.js est un environnement d'exécution JavaScript côté serveur. Il permet de développer des applications web performantes et évolutives. Node.js utilise un modèle asynchrone et non bloquant, ce qui le rend idéal pour les applications gourmandes en temps réel. Avec sa vaste bibliothèque de modules, Node.js offre une flexibilité et une efficacité accrues dans le développement d'applications back-end `,
         image: '/images/node.png',
     },
@@ -56,7 +56,7 @@ let data = [
     {
         id: 'L23U',
         title: 'Mongo',
-        take: `Après un petit moment sans toucher à de la base donnée, ça fait du bien d'en refaire, même si c'est du NoSQL`,
+        take: `Après un petit moment sans toucher à de la base de donnée, ça fait du bien d'en refaire, même si c'est du NoSQL`,
         description: `MongoDB est une base de données NoSQL orientée documents, qui offre une flexibilité et une évolutivité élevées, ainsi qu'une gestion facile des données non structurées ou semi-structurées, en permettant le stockage et la récupération de données sous un format de type JSON`,
         image: '/images/mongoDB.png',
     },

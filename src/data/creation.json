@@ -115,7 +115,7 @@
                 "name": "Git"
             }
         ],
-        "description": "Ce projet vitrine de pet-sitting a été réalisé en pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
+        "description": "Ce projet vitrine de pet-sitting a été réalisé pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
     },
     {
         "id": "SK24",
@@ -146,7 +146,7 @@
                 "name": "Git"
             }
         ],
-        "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. Les associer avec le format Pokemon pour une approche ludique, et j'espère pouvoir faire découvrir a certains curieux des choses interessantes."
+        "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. J’ai souhaité les associer avec le format Pokémon pour une approche ludique, et j'espère pouvoir faire découvrir à certains curieux des choses intéressantes."
     },
     {
         "id": "PMP5",
@@ -180,7 +180,7 @@
                 "name": "Styled Components"
             }
         ],
-        "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En developpement avec un ami dev senior, j'apprend de nouvelles façons de travailler sous la supervisation d'un codeur appliqué."
+        "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En développement avec un ami développeur senior, j'apprends de nouvelles façons de travailler sous la supervision d'un codeur appliqué."
     },
     {
         "id": "85R6",
@@ -214,6 +214,6 @@
                 "name": "Styled Components"
             }
         ],
-        "description": "J'ai créé ce CV en ligne pour me challenger sur React et le Styled Component. J'ai pu appliquer tout ce que j'ai appris precedemment pour créer quelque chose qui me ressemble."
+        "description": "J'ai créé ce CV en ligne pour me challenger sur React et le Styled Component. J'ai pu appliquer tout ce que j'ai appris précédemment pour créer quelque chose qui me ressemble."
     }
 ]
