@@ -3,7 +3,7 @@ import styled from "styled-components";
 import colors from "../../colors";
 import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
-import cv from '../../assets/CV.png';
+import cv from '../../assets/CV-Jordan-Sankare.jpg';
 import { Helmet } from "react-helmet";
 
 const Container = styled.section`
