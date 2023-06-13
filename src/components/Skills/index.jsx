@@ -61,6 +61,13 @@ let data = [
         image: '/images/mongoDB.png',
     },
     {
+        id: 'K32N',
+        title: 'Tests Unitaires',
+        take: `La joie d'écrire un code qui fonctionne n'est rien comparée à celle des tests unitaires qui fonctionnent`,
+        description: `Test unitaire`,
+        image: '/images/unittest.png',
+    },
+    {
         id: '6ME8',
         title: 'SEO',
         take: `L'art et la manière d'être bien vu par le patron`,
