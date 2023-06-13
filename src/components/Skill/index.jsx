@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import colors from '../../colors'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
+  position: relative;
     transition: 0.2s;
     background-color: ${colors.primary};
     display: flex;
@@ -12,7 +15,7 @@ const Container = styled.div`
     align-items: center;
     width: 100%;
     max-width: 280px;
-    min-height: 400px;
+    min-height: 350px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     border-radius: 25px;
     &:hover{
@@ -20,7 +23,6 @@ const Container = styled.div`
     }
     @media (max-width: 768px) {
     max-width: 200px;
-    height: 420px;
   }
   @media (max-width: 500px) {
     max-width: 400px;
@@ -62,12 +64,20 @@ const Description = styled.p`
   }
 `
 
-const Skill = ({logo, title, description}) => {
+const Icon = styled(FontAwesomeIcon)`
+     font-size: 30px;
+     position: absolute;
+     bottom: 10px;
+     right: 10px;
+`;
+
+const Skill = ({logo, title, take, description}) => {
     return (
         <Container>
             <Logo src={logo} alt="Skill logo" />
             <Title>{title}</Title>
-            <Description>{description}</Description>
+            <Description>{take}</Description>
+            <Icon icon={faFileCircleQuestion} className="faSquareQuestion" title={description} />
         </Container>
     );
 };
