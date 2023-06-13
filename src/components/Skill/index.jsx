@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import colors from '../../colors'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFileCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
     position: relative;
@@ -26,7 +24,7 @@ const Container = styled.div`
   }
   @media (max-width: 500px) {
     max-width: 400px;
-    max-height: 200px;
+    max-height: fit-content;
     min-height: 150px;
     flex-direction: row;
     padding: 10px;
@@ -50,8 +48,8 @@ const Logo = styled.img`
 `
 
 const Title = styled.h3`
-    @media (max-width: 500px) {
-    display: none;
+  @media (max-width: 500px) {
+    margin-top: 0;
   }
 `
 
@@ -64,20 +62,23 @@ const Description = styled.p`
   }
 `
 
-// const Icon = styled(FontAwesomeIcon)`
-//      font-size: 30px;
-//      position: absolute;
-//      bottom: 10px;
-//      right: 10px;
-// `;
+const ContentWrapper = styled.div`
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`
 
 const Skill = ({logo, title, take, description}) => {
     return (
         <Container>
-            <Logo src={logo} alt="Skill logo" />
-            <Title>{title}</Title>
+              <Logo src={logo} alt="Skill logo" />
+          <ContentWrapper>
+              <Title>{title}</Title>
             <Description>{take}</Description>
-            {/* <Icon icon={faFileCircleQuestion} className="faSquareQuestion" title={description} /> */}
+          </ContentWrapper>
         </Container>
     );
 };
