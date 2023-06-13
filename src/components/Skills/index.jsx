@@ -14,7 +14,7 @@ let data = [
     {
         id: 'MEG2',
         title: 'Javascript',
-        take: `L'apprentissage de Javascript permet de rajouter une dimension dynamique et intéractive à nos projets, et de commencer à se rendre compte qu'en fait on ne connait pas grand chose`,
+        take: `L'apprentissage de Javascript permet de rajouter une dimension dynamique et intéractive à nos projets, et de se rendre compte qu'en fait on ne connait pas grand chose`,
         description: `JavaScript est un langage puissant pour le développement web. Il ajoute interactivité et dynamisme aux sites en manipulant le HTML, gérant les événements utilisateur, effectuant des requêtes serveur et modifiant l'apparence des éléments de la page. Interprété côté client, il offre flexibilité et fonctionnalités pour créer des applications web modernes et interactives `,
         image: '/images/js.png',
     },
@@ -42,7 +42,7 @@ let data = [
     {
         id: 'BM86',
         title: 'Node',
-        take: `Le premier pas dans le monde du back-end. C'est à la fois très similaire et extrèmement différent que le front-end. Une dualité quasiment philosophique entre familiarité et méconnaissance`,
+        take: `Le premier pas dans le monde du back-end. C'est à la fois très similaire et extrèmement différent que le front-end. Une dualité quasiment philosophique entre familiarité et exploration`,
         description: `Node.js est un environnement d'exécution JavaScript côté serveur. Il permet de développer des applications web performantes et évolutives. Node.js utilise un modèle asynchrone et non bloquant, ce qui le rend idéal pour les applications gourmandes en temps réel. Avec sa vaste bibliothèque de modules, Node.js offre une flexibilité et une efficacité accrues dans le développement d'applications back-end `,
         image: '/images/node.png',
     },

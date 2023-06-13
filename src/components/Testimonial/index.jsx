@@ -23,6 +23,7 @@ const Container = styled.div`
 const Title = styled.h3`
     font-size: 22px;
     text-align: center;
+    color: ${colors.secondary_variant};
     @media (max-width: 500px) {
         font-size: 18px;
     }
@@ -66,6 +67,7 @@ const ExpandButton = styled.button`
 `;
 
 const Name = styled.h4`
+    font-weight: 500;
     margin: 0;
     margin-top: 5px;
 `;

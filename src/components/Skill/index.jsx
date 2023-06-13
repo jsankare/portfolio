@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
-  position: relative;
+    position: relative;
     transition: 0.2s;
     background-color: ${colors.primary};
     display: flex;
@@ -15,7 +15,7 @@ const Container = styled.div`
     align-items: center;
     width: 100%;
     max-width: 280px;
-    min-height: 350px;
+    min-height: 310px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     border-radius: 25px;
     &:hover{
@@ -64,12 +64,12 @@ const Description = styled.p`
   }
 `
 
-const Icon = styled(FontAwesomeIcon)`
-     font-size: 30px;
-     position: absolute;
-     bottom: 10px;
-     right: 10px;
-`;
+// const Icon = styled(FontAwesomeIcon)`
+//      font-size: 30px;
+//      position: absolute;
+//      bottom: 10px;
+//      right: 10px;
+// `;
 
 const Skill = ({logo, title, take, description}) => {
     return (
@@ -77,7 +77,7 @@ const Skill = ({logo, title, take, description}) => {
             <Logo src={logo} alt="Skill logo" />
             <Title>{title}</Title>
             <Description>{take}</Description>
-            <Icon icon={faFileCircleQuestion} className="faSquareQuestion" title={description} />
+            {/* <Icon icon={faFileCircleQuestion} className="faSquareQuestion" title={description} /> */}
         </Container>
     );
 };
