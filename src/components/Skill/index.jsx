@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import colors from '../../colors'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileCircleQuestion } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faFileCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
     position: relative;
