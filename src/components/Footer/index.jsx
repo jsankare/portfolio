@@ -75,7 +75,7 @@ const Footer = () => {
         <StyledLink to="/#infos">Infos</StyledLink>
         <StyledLink to="/#skills">Compétences</StyledLink>
         <StyledLink to="/#creations">Réalisations</StyledLink>
-        <StyledLink to="/testimonial">Avis</StyledLink>
+        <StyledLink to="/#testimonial">Avis</StyledLink>
         <StyledLink to="/contact">Contact</StyledLink>
       </LinksWrapper>
       <Socials>
