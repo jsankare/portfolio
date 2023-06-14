@@ -33,6 +33,9 @@ const Description = styled.p`
     width: 100%;
     max-width: 600px;
     font-size: 18px;
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 `
 
 const Picture = styled.img`
