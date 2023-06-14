@@ -74,7 +74,7 @@ const ContentWrapper = styled.div`
 const Skill = ({logo, title, take, description}) => {
     return (
         <Container>
-              <Logo src={logo} alt="Skill logo" />
+              <Logo src={logo} alt="Skill logo" loading="lazy" />
           <ContentWrapper>
               <Title>{title}</Title>
             <Description>{take}</Description>

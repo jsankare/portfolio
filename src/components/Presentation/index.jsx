@@ -60,7 +60,7 @@ const Presentation = () => {
                         proche développeur lui même et armé de ma motivation, j'ai pu accomplir des missions en même temps que mon diplôme pour toujours renforcer mes connaissances.
                     </Description>
             </Block>
-        <Picture src={profile} />
+        <Picture src={profile} loading="lazy" />
         </Wrapper>
     );
 };

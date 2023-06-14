@@ -41,7 +41,7 @@ const Reponsive = styled.img`
 const Showcase = () => {
     return (
         <Container id="creations">
-            <Reponsive src={Mockup} />
+            <Reponsive src={Mockup} loading="lazy" />
             <Title content="Mes créations"/>
             <CreationsWrapper>
                 {data.map((creation) => (
