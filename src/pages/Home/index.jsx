@@ -8,6 +8,7 @@ import Divider from '../../components/Divider'
 import Showcase from '../../components/Showcase';
 import Presentation from '../../components/Presentation';
 import Testimonials from '../../components/Testimonials';
+import Popin from "../../components/Popin";
 
 import colors from '../../colors'
 
@@ -37,6 +38,7 @@ const App = () => {
         <Divider image='/images/devices.jpg' header={'Compatible Mobile, Tablettes & P.C'} subheader={'Développement Web Reponsive'} color={colors.primary} />
         <Showcase/>
         <Testimonials/>
+        <Popin />
     </Wrapper>
   );
 };
