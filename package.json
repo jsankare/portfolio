@@ -25,6 +25,12 @@
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.4"
   },
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
