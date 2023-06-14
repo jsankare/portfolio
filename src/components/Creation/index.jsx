@@ -72,7 +72,7 @@ const Creation = ({picture, title, subtitle, slug, wip}) => {
     return (
         <Container>
             {wip && <Wip>Work In Progress</Wip>}
-            <Image src={picture} alt={subtitle} loading="lazy" />
+            <Image src={picture} alt={subtitle} />
             <Title>{title}</Title>
             <Subtitle>{subtitle}</Subtitle>
             <SeeMore to={`/closeup/${slug}`} >En apprendre plus</SeeMore>
