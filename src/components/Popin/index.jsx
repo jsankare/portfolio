@@ -238,6 +238,7 @@ const HeadWrapper = styled.div`
     background-color: ${colors.secondary_variant};
     border-radius: 10px 10px 0 0;
     justify-content: space-around;
+    color: white;
 `
 
 const ContentWrapper = styled.div`
