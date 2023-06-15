@@ -244,6 +244,7 @@ const HeadWrapper = styled.div`
 const ContentWrapper = styled.div`
     display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
     width: 100%;
+    cursor: pointer;
 `
 
 const Intel = styled.p`
@@ -272,12 +273,17 @@ const Popin = () => {
         setIsTriggerIconVisible(true);
     }
 
+    const handleClick = () => {
+      const randomIndex = Math.floor(Math.random() * data.length);
+      setCurrentFactIndex(randomIndex);
+    }
+
     useEffect(() => {
         // Update the fun fact every 5 seconds
         const interval = setInterval(() => {
             const randomIndex = Math.floor(Math.random() * data.length);
             setCurrentFactIndex(randomIndex);
-        }, 5000);
+        }, 25000);
 
         return () => {
             clearInterval(interval);
@@ -295,7 +301,7 @@ const Popin = () => {
                     <Heading>Le saviez-vous ?</Heading>
                     <Close icon={faXmark} style={{color: "#f21f07"}} onClick={closePopin} />
                 </HeadWrapper>
-                <ContentWrapper isOpen={isPopinOpen}>
+                <ContentWrapper isOpen={isPopinOpen} onClick={handleClick} >
                     <Intel>{currentFact.funFact}</Intel>
                 </ContentWrapper>
             </Wrapper>
