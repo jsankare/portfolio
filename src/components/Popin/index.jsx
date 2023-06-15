@@ -245,6 +245,7 @@ const ContentWrapper = styled.div`
     display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
     width: 100%;
     cursor: pointer;
+    flex-direction: column;
 `
 
 const Intel = styled.p`
@@ -254,6 +255,28 @@ const Intel = styled.p`
 
 const Heading = styled.h3`
     margin: 0;
+`
+
+const HowToDesktop = styled.p `
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 4px;
+  @media (max-width:678px) {
+    display: none;
+  }
+`
+
+const HowToMobile = styled.p `
+  display: none;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 4px;
+  @media (max-width:678px) {
+    display: block;
+  }
 `
 
 const Popin = () => {
@@ -283,7 +306,7 @@ const Popin = () => {
         const interval = setInterval(() => {
             const randomIndex = Math.floor(Math.random() * data.length);
             setCurrentFactIndex(randomIndex);
-        }, 25000);
+        }, 20000);
 
         return () => {
             clearInterval(interval);
@@ -303,6 +326,8 @@ const Popin = () => {
                 </HeadWrapper>
                 <ContentWrapper isOpen={isPopinOpen} onClick={handleClick} >
                     <Intel>{currentFact.funFact}</Intel>
+                    <HowToDesktop>Clickez pour changer !</HowToDesktop>
+                    <HowToMobile>Tappez pour changer !</HowToMobile>
                 </ContentWrapper>
             </Wrapper>
         </Container>
