@@ -301,17 +301,17 @@ const Popin = () => {
       setCurrentFactIndex(randomIndex);
     }
 
-    useEffect(() => {
-        // Update the fun fact every 5 seconds
-        const interval = setInterval(() => {
-            const randomIndex = Math.floor(Math.random() * data.length);
-            setCurrentFactIndex(randomIndex);
-        }, 20000);
+    // useEffect(() => {
+    //     // Update the fun fact every 5 seconds
+    //     const interval = setInterval(() => {
+    //         const randomIndex = Math.floor(Math.random() * data.length);
+    //         setCurrentFactIndex(randomIndex);
+    //     }, 20000);
 
-        return () => {
-            clearInterval(interval);
-        };
-    }, []);
+    //     return () => {
+    //         clearInterval(interval);
+    //     };
+    // }, []);
 
     const currentFact = data[currentFactIndex];
 
