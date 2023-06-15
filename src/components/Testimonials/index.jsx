@@ -8,7 +8,7 @@ const data = [
         title:"Rapidité & Professionnalisme",
         description:`Je me suis lancée récemment en auto entrepreneur et Jordan a contribué à la bonne réalisation de mon projet. Il a été très réactif, a su comprendre et analyser les besoins nécessaires à la création du site internet et me l'a créé.`,
         name:"Marilou",
-        position:"Marilou"
+        position:"Cliente Marilou"
     },
     {
         title:`Très motivé, très déterminé`,
@@ -27,7 +27,7 @@ const data = [
         title:"Professionnel & sérieux",
         description:`Jordan a su me conseiller du début à la fin pour la création de mon site internet. Il a été fort de proposition et dans le même temps à l'écoute de mes besoins. Très réactif, il a su s'adapter à toutes les situations. Le résultat est super, Merci !`,
         name:"Johanna",
-        position:"Graines de Meaux"
+        position:"Cliente Graines de Meaux"
     },
     {
         title:`Soif d'apprentissage`,
