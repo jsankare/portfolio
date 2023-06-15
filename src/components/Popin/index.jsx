@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+// import { useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 import colors from '../../colors';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
