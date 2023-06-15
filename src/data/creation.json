@@ -190,7 +190,10 @@
         "wip": true,
         "link": "/",
         "figures" : [
-            "/images/code-in-progress.jpg"
+            "/images/portfolio/portfolio.png",
+            "/images/portfolio/portfolio2.png",
+            "/images/portfolio/portfolio3.png",
+            "/images/portfolio/portfolio4.png"
         ],
         "tags": [
             {
