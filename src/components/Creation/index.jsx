@@ -50,6 +50,8 @@ const SeeMore = styled(Link)`
     }
 `
 
+const SeeMoreImg = styled(Link)``
+
 const Wip = styled.div`
     transition: 0.3s ease-in-out;
     position: absolute;
@@ -72,7 +74,7 @@ const Creation = ({picture, title, subtitle, slug, wip}) => {
     return (
         <Container>
             {wip && <Wip>Work In Progress</Wip>}
-            <Image src={picture} alt={subtitle} />
+            <SeeMoreImg to={`/closeup/${slug}`} ><Image src={picture} alt={subtitle} /></SeeMoreImg>
             <Title>{title}</Title>
             <Subtitle>{subtitle}</Subtitle>
             <SeeMore to={`/closeup/${slug}`} >En apprendre plus</SeeMore>
