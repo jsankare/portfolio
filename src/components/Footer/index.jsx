@@ -64,12 +64,22 @@ const Icon = styled(FontAwesomeIcon)`
   font-size: 30px;
 `;
 
+const Copyright = styled.p`
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+`
+
 const Footer = () => {
   return (
     <FooterWrapper>
       <ContactWrapper>
-        <StyledLink to="mailto:jordan.sankare@gmail.com" >jordan.sankare@gmail.com</StyledLink>
-        <StyledLink to="tel:0665258153" >06.58.14.25.88</StyledLink>
+        <Copyright>Création Jordan Sankare tous droits réservés</Copyright>
       </ContactWrapper>
       <LinksWrapper>
         <StyledLink to="/#infos">Infos</StyledLink>
