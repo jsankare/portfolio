@@ -22,15 +22,16 @@
     },
     {
         "id": "5K33",
-        "picture": "/images/marilou/logo.svg",
-        "title": "Marilou",
+        "picture": "/images/marilouv2/logo.svg",
+        "title": "Marilou - 2ème version",
         "subtitle": "Pet-sitting",
         "wip": false,
-        "link": "https://marilou-pet-sitting.fr/",
+        "link": "https://marilou-pet-sitting.fr",
         "figures" : [
-            "/images/marilou/marilou.png",
-            "/images/marilou/marilou2.png",
-            "/images/marilou/marilou3.png"
+            "/images/marilouv2/marilouv2_1.png",
+            "/images/marilouv2/marilouv2_2.png",
+            "/images/marilouv2/marilouv2_3.png",
+            "/images/marilouv2/marilouv2_4.png"
         ],
         "tags": [
             {
@@ -42,11 +43,19 @@
                 "name": "Javascript"
             },
             {
+                "url": "/images/nextjs.png",
+                "name": "NextJS"
+            },
+            {
+                "url": "/images/node.png",
+                "name": "Node"
+            },
+            {
                 "url": "/images/git.png",
                 "name": "Git"
             }
         ],
-        "description": "Ce projet vitrine de pet-sitting a été réalisé pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
+        "description": "J'ai conceptualisé et effectué une refonte totale du site de pet sitting 'Marilou' qui était  réalisé en HTML, CSS et Javascript simple. Cette vesion utilise NextJS, Styled Components, et un Backend (NodeJS). De nombreuses fonctionnalités ont été implémentées permettant au propriétaire du site de pouvoir fournir lui même ses avis, ses images etc .. Le site est hébergé grâce à Github Pages pour le frontend et Google Cloud Platform pour le backend."
     },
     {
         "id": "85R6",
@@ -153,6 +162,34 @@
             }
         ],
         "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
+    },
+    {
+        "id": "5K33",
+        "picture": "/images/marilou/logo.svg",
+        "title": "Marilou - 1ère version",
+        "subtitle": "Pet-sitting",
+        "wip": false,
+        "link": "",
+        "figures" : [
+            "/images/marilou/marilou.png",
+            "/images/marilou/marilou2.png",
+            "/images/marilou/marilou3.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/js.png",
+                "name": "Javascript"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "description": "Ce projet vitrine de pet-sitting a été réalisé pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
     },
     {
         "id": "SK24",
