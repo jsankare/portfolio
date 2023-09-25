@@ -5,6 +5,7 @@ import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
 import cv from '../../assets/CV-Jordan-Sankare.jpg';
 import cvjs from '../../assets/Jordan-Sankare-CV.pdf';
+// import ReCAPTCHA from "react-google-recaptcha";
 import { Helmet } from "react-helmet";
 
 const Container = styled.section`
@@ -198,17 +199,20 @@ const SubmitButton = styled.button`
 const serviceKey = process.env.REACT_APP_SERVICE_KEY;
 const templateKey = process.env.REACT_APP_TEMPLATE_KEY;
 const userKey = process.env.REACT_APP_USER_KEY;
+// const recaptchaKey = process.env.RECAPTCHA_PUBLIC_KEY
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
+  // const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!isChecked) {
+      // || !recaptchaValue
       return;
     }
 
@@ -216,6 +220,7 @@ const Contact = () => {
       name: name,
       email: email,
       message: message,
+      // recaptcha: recaptchaValue,
     };
 
     // Send email using EmailJS
@@ -246,6 +251,10 @@ const Contact = () => {
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
   };
+
+  // const handleRecaptchaChange = (value) => {
+  //   setRecaptchaValue(value);
+  // }
 
   return (
     <Container>
@@ -289,16 +298,20 @@ const Contact = () => {
               />
             </Label>
             <CheckboxLabel>
-              <Checkbox
-                type="checkbox"
-                checked={isChecked}
-                onChange={handleCheckboxChange}
-                required
-              />
-              J'ai vérifié, tout est bon
+                <Checkbox
+                    type="checkbox"
+                    checked={isChecked}
+                    onChange={handleCheckboxChange}
+                    required
+                />
+            J'ai vérifié, tout est bon
             </CheckboxLabel>
+            {/* <ReCAPTCHA
+                sitekey={recaptchaKey}
+                onChange={handleRecaptchaChange}
+            /> */}
             <SubmitButton type="submit" disabled={!isChecked}>
-              Envoyer !
+                Envoyer !
             </SubmitButton>
           </StyledForm>
         </FormWrapper>
