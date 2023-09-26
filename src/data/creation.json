@@ -19,14 +19,13 @@
             }
         ],
         "upsides": [
-            "Nouvelle technologie",
             "Dashboard complet",
             "Possibilité de modifier les extensions rapidement",
             "Beaucoup de templates disponibles"
         ],
         "downsides": [
             "Nouvelle interface et dashboard à apprivoiser",
-            "Plugins rapidement obsolètes, besoin de mises à jours fréquentes",
+            "Plugins rapidement obsolètes, besoin de mises à jour fréquentes",
             "Parfois complexe de réaliser une idée précise"
         ],
         "description": "Pour un client final, j'ai conceptualisé et réalisé un site Wordpress pour une micro-crêche. Cela m'a permis d'apprendre cette technologie et de gérer de multiples plugins. J'ai également pu améliorer mes compétences en design en effectuant les maquettes sur Figma."
@@ -67,12 +66,17 @@
             }
         ],
         "upsides": [
-            "Passage de ReactJS à NextJS",
             "Utilisation de backend",
-            ""
+            "Hébergement gratuit ou presque",
+            "Refonte d'une première version plus simpliste",
+            "Déploiement et mises à jour frontend facile et gratuit grâce à github pages",
+            "Mises à jour des avis et images possibles directement via une interface pour la cliente"
         ],
         "downsides": [
-            ""
+            "Passage de ReactJS à NextJS",
+            "Déploiement et mises à jour backend via Google Cloud Platform",
+            "mise en place d'un système de session et d'une interface admin",
+            "Stockage et display d'images"
         ],
         "description": "J'ai conceptualisé et effectué une refonte totale du site de pet sitting 'Marilou' qui était  réalisé en HTML, CSS et Javascript simple. Cette vesion utilise NextJS, Styled Components, et un Backend (NodeJS). De nombreuses fonctionnalités ont été implémentées permettant au propriétaire du site de pouvoir fournir lui même ses avis, ses images etc .. Le site est hébergé grâce à Github Pages pour le frontend et Google Cloud Platform pour le backend."
     },
@@ -112,10 +116,13 @@
             }
         ],
         "upsides": [
-            ""
+            "Première création originale, mise en place de maquette avant réalisation sur Figma",
+            "Mise en place d'un effet parrallax",
+            "Utilisation de styled-components"
         ],
         "downsides": [
-            ""
+            "Premier hébergement gratuit grâce à github pages, création d'un fichier yml",
+            "Apprentissage complet des hooks React (UseStake, UseEffect..)"
         ],
         "description": "J'ai créé ce CV en ligne pour me challenger sur React et le Styled Component. J'ai pu appliquer tout ce que j'ai appris précédemment pour créer quelque chose qui me ressemble."
     },
@@ -154,10 +161,11 @@
             }
         ],
         "upsides": [
-            ""
+            "Premier contact avec React",
+            "Utilisation de composants réutilisables"
         ],
         "downsides": [
-            ""
+            "Apprentissage de la syntaxe React"
         ],
         "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
     },
@@ -193,10 +201,11 @@
             }
         ],
         "upsides": [
-            ""
+            "Premier contact avec le NodeJS et Express",
+            "Boost de possiblités"
         ],
         "downsides": [
-            ""
+            "Logique backend particulière"
         ],
         "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
     },
@@ -227,10 +236,12 @@
             }
         ],
         "upsides": [
-            ""
+            "Application instantannée des cours sur le Javascript",
+            "Utilisation des modules CSS",
+            "Lien entre le HTML, CSS et Javascript"
         ],
         "downsides": [
-            ""
+            "Syntaxe javascript à apprendre"
         ],
         "description": "Ce projet vitrine de pet-sitting a été réalisé pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
     },
@@ -264,10 +275,10 @@
             }
         ],
         "upsides": [
-            ""
+            
         ],
         "downsides": [
-            ""
+            
         ],
         "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. J’ai souhaité les associer avec le format Pokémon pour une approche ludique, et j'espère pouvoir faire découvrir à certains curieux des choses intéressantes."
     },
@@ -304,10 +315,13 @@
             }
         ],
         "upsides": [
-            ""
+            "Donjons & Dragons !",
+            "Standards de code élevés",
+            "Utilisation de Yarn au lieu de Npm"
         ],
         "downsides": [
-            ""
+            "Utilisation de NX",
+            "Apprentissage des tests unitaires"
         ],
         "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En développement avec un ami développeur senior, j'apprends de nouvelles façons de travailler sous la supervision d'un codeur appliqué."
     }
