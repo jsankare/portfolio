@@ -247,6 +247,9 @@ const ContentWrapper = styled.div`
     width: 100%;
     cursor: pointer;
     flex-direction: column;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 `
 
 const Intel = styled.p`
@@ -301,18 +304,6 @@ const Popin = () => {
       const randomIndex = Math.floor(Math.random() * data.length);
       setCurrentFactIndex(randomIndex);
     }
-
-    // useEffect(() => {
-    //     // Update the fun fact every 5 seconds
-    //     const interval = setInterval(() => {
-    //         const randomIndex = Math.floor(Math.random() * data.length);
-    //         setCurrentFactIndex(randomIndex);
-    //     }, 20000);
-
-    //     return () => {
-    //         clearInterval(interval);
-    //     };
-    // }, []);
 
     const currentFact = data[currentFactIndex];
 
