@@ -27,10 +27,17 @@ let data = [
     },
     {
         id: 'V7K3',
-        title: 'React',
+        title: 'ReactJS',
         take: `Enfin dans la cour des grands ! Avec React, -presque- tout est possible. Il faut penser à beaucoup de choses mais le résultat est très satisfaisant`,
         description: `React est une bibliothèque JavaScript pour créer des interfaces utilisateur interactives et réactives. Elle facilite la construction de composants réutilisables et la gestion de l'état de l'application ainsi que des performances optimisées et permet des mises à jour dynamiques des éléments de l'interface`,
         image: '/images/react.png',
+    },
+    {
+        id: 'TI0Z',
+        title: 'NextJS',
+        take: `Transitionner de React à Next est facile, et Next apporte plusieurs fonctionnalités, incluant le server-side rendering.`,
+        description: `Next.js est un framework JavaScript basé sur React qui simplifie le développement web en offrant des fonctionnalités telles que le rendu universel, le routage dynamique, le pré-rendu statique, et une intégration fluide avec diverses sources de données.`,
+        image: '/images/nextjs.png',
     },
     {
         id: '47M5',

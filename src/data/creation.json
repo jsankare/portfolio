@@ -18,6 +18,17 @@
                 "name": "Wordpress"
             }
         ],
+        "upsides": [
+            "Nouvelle technologie",
+            "Dashboard complet",
+            "Possibilité de modifier les extensions rapidement",
+            "Beaucoup de templates disponibles"
+        ],
+        "downsides": [
+            "Nouvelle interface et dashboard à apprivoiser",
+            "Plugins rapidement obsolètes, besoin de mises à jours fréquentes",
+            "Parfois complexe de réaliser une idée précise"
+        ],
         "description": "Pour un client final, j'ai conceptualisé et réalisé un site Wordpress pour une micro-crêche. Cela m'a permis d'apprendre cette technologie et de gérer de multiples plugins. J'ai également pu améliorer mes compétences en design en effectuant les maquettes sur Figma."
     },
     {
@@ -54,6 +65,14 @@
                 "url": "/images/git.png",
                 "name": "Git"
             }
+        ],
+        "upsides": [
+            "Passage de ReactJS à NextJS",
+            "Utilisation de backend",
+            ""
+        ],
+        "downsides": [
+            ""
         ],
         "description": "J'ai conceptualisé et effectué une refonte totale du site de pet sitting 'Marilou' qui était  réalisé en HTML, CSS et Javascript simple. Cette vesion utilise NextJS, Styled Components, et un Backend (NodeJS). De nombreuses fonctionnalités ont été implémentées permettant au propriétaire du site de pouvoir fournir lui même ses avis, ses images etc .. Le site est hébergé grâce à Github Pages pour le frontend et Google Cloud Platform pour le backend."
     },
@@ -92,6 +111,12 @@
                 "name": "Styled Components"
             }
         ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
+        ],
         "description": "J'ai créé ce CV en ligne pour me challenger sur React et le Styled Component. J'ai pu appliquer tout ce que j'ai appris précédemment pour créer quelque chose qui me ressemble."
     },
     {
@@ -128,6 +153,12 @@
                 "name": "Git"
             }
         ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
+        ],
         "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
     },
     {
@@ -161,6 +192,12 @@
                 "name": "Git"
             }
         ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
+        ],
         "description": "Dans le cadre d'un projet OpenClassrooms, j'ai eu l'opportunité de développer ma première application React.js en utilisant React Router et TypeScript. Le projet consistait à intégrer le design d'une maquette dans l'application."
     },
     {
@@ -188,6 +225,12 @@
                 "url": "/images/git.png",
                 "name": "Git"
             }
+        ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
         ],
         "description": "Ce projet vitrine de pet-sitting a été réalisé pendant mon diplôme. La demande était simple, et cela m'a permis de renforcer mes connaissances et de pratiquer le Javascript en situation réelle. La cliente est très satisfaite du rendu fonctionnel & visuel."
     },
@@ -219,6 +262,12 @@
                 "url": "/images/git.png",
                 "name": "Git"
             }
+        ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
         ],
         "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. J’ai souhaité les associer avec le format Pokémon pour une approche ludique, et j'espère pouvoir faire découvrir à certains curieux des choses intéressantes."
     },
@@ -253,6 +302,12 @@
                 "url": "/images/styled.png",
                 "name": "Styled Components"
             }
+        ],
+        "upsides": [
+            ""
+        ],
+        "downsides": [
+            ""
         ],
         "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En développement avec un ami développeur senior, j'apprends de nouvelles façons de travailler sous la supervision d'un codeur appliqué."
     }
