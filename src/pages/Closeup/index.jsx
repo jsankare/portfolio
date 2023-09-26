@@ -125,13 +125,13 @@ const Here = styled.a`
   color: ${colors.secondary_variant};
 `
 
-const Upsides = styled.div``
+// const Upsides = styled.div``
 
-const UpsidesTitle = styled.h4``
+// const UpsidesTitle = styled.h4``
 
-const Downsides = styled.div``
+// const Downsides = styled.div``
 
-const DownsidesTitle = styled.h4``
+// const DownsidesTitle = styled.h4``
 
 const Closeup = () => {
 
@@ -163,12 +163,12 @@ const Closeup = () => {
             <TagIcon key={tag.url} src={tag.url} title={tag.name} />
           ))}
         </TagList>
-        <Upsides>
+        {/* <Upsides>
 
         </Upsides>
         <Downsides>
           
-        </Downsides>
+        </Downsides> */}
         </Left>
         <Right>
           <Description>{project.description}</Description>
