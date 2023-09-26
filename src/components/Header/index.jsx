@@ -65,8 +65,8 @@ const StyledLink = styled(Link)`
 `;
 
 const MenuIcon = styled.div`
-  display: none;
-  cursor: pointer;
+    display: none;
+    cursor: pointer;
 
   @media (max-width: 768px) {
     display: block;
@@ -95,40 +95,44 @@ const Menu = styled.div`
 `;
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
 
   return (
     <HeaderWrapper>
-      <div>
-        <StyledLink to="/">
-          <Logo src='/images/test.png' alt="Logo" />
+        <div>
+            <StyledLink to="/">
+            <Logo src='/images/test.png' alt="Logo" />
+            </StyledLink>
+        </div>
+        <LinksWrapper>
+            <StyledLink to="/#infos">Infos</StyledLink>
+            <StyledLink to="/#skills">Compétences</StyledLink>
+            <StyledLink to="/#creations">Réalisations</StyledLink>
+            <StyledLink to="/#testimonial">Avis</StyledLink>
+        </LinksWrapper>
+        <MenuIcon onClick={toggleMenu}>
+            <Icon src='/images/menu.png' />
+        </MenuIcon>
+        <Menu isOpen={isMenuOpen}>
+            <StyledLink to="/#infos" onClick={closeMenu} >Infos</StyledLink>
+            <StyledLink to="/#skills" onClick={closeMenu}>Compétences</StyledLink>
+            <StyledLink to="/#creations" onClick={closeMenu}>Réalisations</StyledLink>
+            <StyledLink to="/#testimonial" onClick={closeMenu}>Avis</StyledLink>
+            <StyledLink to="/contact" onClick={closeMenu}>Contact</StyledLink>
+        </Menu>
+        <ButtonWrapper>
+        <StyledLink to="/contact">
+            <Button content="Me contacter" />
         </StyledLink>
-      </div>
-      <LinksWrapper>
-        <StyledLink to="/#infos">Infos</StyledLink>
-        <StyledLink to="/#skills">Compétences</StyledLink>
-        <StyledLink to="/#creations">Réalisations</StyledLink>
-        <StyledLink to="/#testimonial">Avis</StyledLink>
-      </LinksWrapper>
-      <MenuIcon onClick={toggleMenu}>
-        <Icon src='/images/menu.png' />
-      </MenuIcon>
-      <Menu isOpen={isMenuOpen}>
-        <StyledLink to="/#infos">Infos</StyledLink>
-        <StyledLink to="/#skills">Compétences</StyledLink>
-        <StyledLink to="/#creations">Réalisations</StyledLink>
-        <StyledLink to="/#testimonial">Avis</StyledLink>
-        <StyledLink to="/contact">Contact</StyledLink>
-      </Menu>
-      <ButtonWrapper>
-      <StyledLink to="/contact">
-        <Button content="Me contacter" />
-      </StyledLink>
-      </ButtonWrapper>
+        </ButtonWrapper>
     </HeaderWrapper>
   );
 };
