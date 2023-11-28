@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import profile from "../../assets/profile2.jpg"
 import Title from "../Layout/title";
+import colors from "../../colors";
 
 const Wrapper = styled.section`
     display: flex;
@@ -46,6 +47,11 @@ const Picture = styled.img`
     margin-bottom: 10px;
 `
 
+const StyledLink = styled.a`
+    text-decoration: none;
+    color: ${colors.secondary_variant};
+`
+
 const Presentation = () => {
     return (
         <Wrapper id="infos">
@@ -54,6 +60,9 @@ const Presentation = () => {
                     <Description>
                         Bienvenue à vous sur mon portfolio en ligne. Après avoir travaillé dans divers milieux, notamment le fret ainsi que les collèges & lycées, j'ai 
                         décidé de me prendre en main et d'effectuer une reconversion professionelle, au cours de laquelle j'ai décroché un diplôme de développeur web de niveau 5 (Bac +2). 
+                        <br />
+                        <br />
+                        Je suis actuellement en recherche d'une entreprise partenaire pour continuer mon cursus à l'<StyledLink href="https://www.esgi.fr/">ESGI</StyledLink> en 3ème année d'Ingéniérie du web.                  
                         <br />
                         <br />
                         Passionné depuis le lycée (coucou les programmes sur la TI-83), j'ai toujours plus ou moins eu un oeil sur l'informatique et ses technologies. Aidé par un
