@@ -317,7 +317,7 @@ const Popin = () => {
                 </HeadWrapper>
                 <ContentWrapper isOpen={isPopinOpen} onClick={handleClick} >
                     <Intel>{currentFact.funFact}</Intel>
-                    <HowToDesktop>Clickez pour changer !</HowToDesktop>
+                    <HowToDesktop>Cliquez pour changer !</HowToDesktop>
                     <HowToMobile>Tappez pour changer !</HowToMobile>
                 </ContentWrapper>
             </Wrapper>
