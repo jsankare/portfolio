@@ -3,8 +3,8 @@ import styled from "styled-components";
 import colors from "../../colors";
 import Title from "../../components/Layout/title";
 import emailjs from '@emailjs/browser';
-import cv from '../../assets/Jordan-Sankare-CV.jpg';
-import cvjs from '../../assets/Jordan-Sankare-CV.pdf';
+import cv from '../../assets/Jordan-Sankare-CV.png';
+import cvpdf from '../../assets/Jordan-Sankare-CV.pdf';
 // import ReCAPTCHA from "react-google-recaptcha";
 import { Helmet } from "react-helmet";
 
@@ -316,15 +316,15 @@ const Contact = () => {
           </StyledForm>
         </FormWrapper>
         <Aside>
-          <Download href={cvjs} download="CV_Jordan_Sankare" >
+          <Download href={cvpdf} download="CV_Jordan_Sankare" >
             <Vitae src={cv} />
           </Download>
           <DlWrapper>
-            <Download href={cvjs} download >Télécharger le CV</Download>
+            <Download href={cvpdf} download >Télécharger le CV</Download>
           </DlWrapper>
         </Aside>
         <Banner>
-        <BannerDownload href={cvjs} download >Télécharger le CV</BannerDownload>
+        <BannerDownload href={cvpdf} download >Télécharger le CV</BannerDownload>
         </Banner>
       </PageWrapper>
     </Container>
