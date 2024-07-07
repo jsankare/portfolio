@@ -40,6 +40,27 @@ let data = [
         image: '/images/nextjs.png',
     },
     {
+        id: 'GP2N',
+        title: 'PHP',
+        take: `Un langage complet et très souple, permet d'effectuer de nombreuses choses même from scratch. La courbe d'apprentissage est un peu rude au début, mais apres un temps tout devient très familier.`,
+        description: `PHP (Hypertext Preprocessor) est un langage de script côté serveur largement utilisé pour le développement web. Il permet de créer des pages web dynamiques et interactives. En s'intégrant facilement avec des bases de données comme MySQL, PHP est idéal pour développer des applications web robustes. Sa syntaxe simple et sa grande flexibilité le rendent accessible aux débutants tout en offrant des fonctionnalités avancées pour les développeurs expérimentés.`,
+        image: '/images/php.png',
+    },
+    {
+        id: '59K3',
+        title: 'PostgreSQL',
+        take: `Utiliser PostgreSQL (avec Adminer) m'a permis de comprendre la puissance des bases de données relationnelles avancées. La capacité de gérer des données complexes de manière efficace et sécurisée est impressionnante.`,
+        description: `PostgreSQL est un système de gestion de base de données relationnelle et objet (SGBDRO) open source. Il est réputé pour sa robustesse, sa scalabilité et sa conformité aux standards SQL. PostgreSQL supporte des fonctionnalités avancées comme les transactions ACID, les vues matérialisées et le stockage JSON, ce qui en fait un choix idéal pour des applications exigeantes.`,
+        image: '/images/postgres.png',
+    },
+    {
+        id: '62L7',
+        title: 'Sass',
+        take: `Découvrir Sass a transformé ma manière de gérer le CSS. La possibilité de créer des styles réutilisables et modulaires a grandement simplifié le développement de styles complexes.`,
+        description: `Sass (Syntactically Awesome Style Sheets) est un préprocesseur CSS qui étend les fonctionnalités de CSS avec des variables, des fonctions et des mixins. Il permet d'écrire du CSS plus maintenable et modulaire. Avec Sass, les développeurs peuvent organiser et réutiliser leurs styles de manière efficace, rendant la feuille de style plus facile à gérer et à étendre.`,
+        image: '/images/sass.png',
+    },
+    {
         id: '47M5',
         title: 'Wordpress',
         take: `C'est complètement différent de ce que j'ai pu faire depuis mes débuts en développement, intéressant et terrifiant de savoir que l'on peut créer des sites entiers sans une ligne de code`,

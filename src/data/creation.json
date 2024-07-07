@@ -324,5 +324,56 @@
             "Apprentissage des tests unitaires"
         ],
         "description": "Projet d'application d'accompagnement de sessions de JDR (Jeu De Rôle) Dongeons et Dragons. En développement avec un ami développeur senior, j'apprends de nouvelles façons de travailler sous la supervision d'un codeur appliqué."
+    },
+    {
+        "id": "T6U9",
+        "picture": "/images/cms-php/logo.svg",
+        "title": "CMS PHP",
+        "subtitle": "Projet PhP",
+        "wip": false,
+        "link": "https://php-semestriel.jsankare.dev/",
+        "figures" : [
+            "/images/cms-php/cms-1.PNG",
+            "/images/cms-php/cms-2.PNG",
+            "/images/cms-php/cms-3.PNG",
+            "/images/cms-php/cms-4.PNG",
+            "/images/cms-php/cms-5.PNG",
+            "/images/cms-php/cms-6.PNG",
+            "/images/cms-php/cms-7.PNG"
+        ],
+        "tags": [
+            {
+                "url": "/images/htmlcss.png",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/sass.png",
+                "name": "Sass"
+            },
+            {
+                "url": "/images/php.png",
+                "name": "PHP"
+            },
+            {
+                "url": "/images/postgres.png",
+                "name": "Postgres"
+            },
+            {
+                "url": "/images/git.png",
+                "name": "Git"
+            }
+        ],
+        "upsides": [
+            "Beaucoup de features",
+            "Utilisation d'une nouvelle base de données",
+            "Un gros challenge salué par une note délivrée par le jury de 18/20"
+        ],
+        "downsides": [
+            "Travail de 4 personnes effectué seul",
+            "Beaucoup de temps de recherche car 1er projet en PHP",
+            "Limité en temps, et en plus de travail de l'alternance",
+            "Côté intégration moins avancé que le côté technique"
+        ],
+        "description": "J'ai entièrement réalisé et conçu un CMS en PHP comme projet semestriel pour l'école ESGI Paris. Le CMS est fonctionnel malgrés le côté visuel un peu 'brut', et offre les fonctionnalités suivantes : Comptes avec gestion de rôles, Galerie avec slider, commentaires, modération, pages, articles, suivi de statistique, le tout avec une bonne sécurité notamment via l'envoi de mail pour les mots de passe ou la vérification de compte."
     }
 ]
