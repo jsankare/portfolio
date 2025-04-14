@@ -5,7 +5,7 @@ const path = require('path');
 const creations = require('../data/creation.json');
 
 // Ton domaine (local ou prod)
-const BASE_URL = 'https://jsnakare.dev'; // Change pour ton domaine
+const BASE_URL = 'https://jsankare.dev'; // Change pour ton domaine
 
 // Routes statiques
 const staticRoutes = [
@@ -14,7 +14,7 @@ const staticRoutes = [
 ];
 
 // Routes dynamiques
-const dynamicRoutes = creations.map(item => `/closeup/${item.title}`);
+const dynamicRoutes = creations.map(item => `/closeup/${item.title.replace(/\s+/g, '-').toLowerCase()}`);
 
 // Combine le tout
 const allRoutes = [...staticRoutes, ...dynamicRoutes];

@@ -162,8 +162,8 @@ const UpsAndDownsMobile = styled.section`
 
 const Closeup = () => {
 
-    const { id } = useParams();
-    const project = data.find((creation) => creation.title === id);
+    const { slug } = useParams();
+    const project = data.find((creation) => creation.title.replace(/\s+/g, '-').toLowerCase() === slug);
 
     if (!project) {
         return <Navigate to="/404"/>
