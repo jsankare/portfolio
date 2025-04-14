@@ -14,7 +14,7 @@
         ],
         "tags": [
             {
-                "url": "/images/wordpress.png",
+                "url": "/images/icons/wordpress.svg",
                 "name": "Wordpress"
             }
         ],
@@ -45,23 +45,23 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/nextjs.png",
+                "url": "/images/icons/nextjs.svg",
                 "name": "NextJS"
             },
             {
-                "url": "/images/node.png",
+                "url": "/images/icons/node.svg",
                 "name": "Node"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
@@ -95,23 +95,23 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/react.png",
+                "url": "/images/icons/react.svg",
                 "name": "React"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             },
             {
-                "url": "/images/styled.png",
+                "url": "/images/icons/styled-components.svg",
                 "name": "Styled Components"
             }
         ],
@@ -144,19 +144,19 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/react.png",
+                "url": "/images/icons/react.svg",
                 "name": "React"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
@@ -184,19 +184,19 @@
         ],
         "tags": [
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/node.png",
+                "url": "/images/icons/node.svg",
                 "name": "NodeJS"
             },
             {
-                "url": "/images/mongoDB.png",
+                "url": "/images/icons/mongo.svg",
                 "name": "MongoDB"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
@@ -223,15 +223,15 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
@@ -258,27 +258,27 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/react.png",
+                "url": "/images/icons/react.svg",
                 "name": "React"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
         "upsides": [
-            
+
         ],
         "downsides": [
-            
+
         ],
         "description": "Ce projet, c'est ma petite idée. Fasciné par toutes ces mythologies disparues, j'adore découvrir les divinités dont on ne connait aujourd'hui parfois plus que le nom. J’ai souhaité les associer avec le format Pokémon pour une approche ludique, et j'espère pouvoir faire découvrir à certains curieux des choses intéressantes."
     },
@@ -294,23 +294,23 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/js.png",
+                "url": "/images/icons/javascript.svg",
                 "name": "Javascript"
             },
             {
-                "url": "/images/react.png",
+                "url": "/images/icons/react.svg",
                 "name": "React"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             },
             {
-                "url": "/images/styled.png",
+                "url": "/images/icons/styled-components.svg",
                 "name": "Styled Components"
             }
         ],
@@ -343,23 +343,23 @@
         ],
         "tags": [
             {
-                "url": "/images/htmlcss.png",
+                "url": "/images/icons/htmlcss.svg",
                 "name": "HTML & CSS"
             },
             {
-                "url": "/images/sass.png",
+                "url": "/images/icons/sass.svg",
                 "name": "Sass"
             },
             {
-                "url": "/images/php.png",
+                "url": "/images/icons/php.svg",
                 "name": "PHP"
             },
             {
-                "url": "/images/postgres.png",
+                "url": "/images/icons/postgresql.svg",
                 "name": "Postgres"
             },
             {
-                "url": "/images/git.png",
+                "url": "/images/icons/git.svg",
                 "name": "Git"
             }
         ],
