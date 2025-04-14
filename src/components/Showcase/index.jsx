@@ -42,18 +42,21 @@ const Showcase = () => {
     return (
         <Container id="creations">
             <Reponsive src={Mockup} />
-            <Title content="Mes créations"/>
+            <Title content="Mes créations" />
             <CreationsWrapper>
-                {data.map((creation) => (
-                <Creation
-                    key={creation.id}
-                    picture={creation.picture}
-                    title={creation.title}
-                    subtitle={creation.subtitle}
-                    slug={creation.title}
-                    wip={creation.wip}
-                />
-                ))}
+                {data.map((creation) => {
+                    const slug = creation.title.replace(/\s+/g, '-').toLowerCase();
+                    return (
+                        <Creation
+                            key={creation.id}
+                            picture={creation.picture}
+                            title={creation.title}
+                            subtitle={creation.subtitle}
+                            slug={slug}
+                            wip={creation.wip}
+                        />
+                    );
+                })}
             </CreationsWrapper>
         </Container>
     );

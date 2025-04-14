@@ -9,7 +9,7 @@ function AppRouter() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/closeup/:id" element={<Closeup />} />
+      <Route path="/closeup/:slug" element={<Closeup />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/404" element={<Missdirection />} />
       <Route path="*" element={<Navigate to="/404" />} />
