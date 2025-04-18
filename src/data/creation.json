@@ -375,5 +375,42 @@
             "Côté intégration moins avancé que le côté technique"
         ],
         "description": "J'ai entièrement réalisé et conçu un CMS en PHP comme projet semestriel pour l'école ESGI Paris. Le CMS est fonctionnel malgrés le côté visuel un peu 'brut', et offre les fonctionnalités suivantes : Comptes avec gestion de rôles, Galerie avec slider, commentaires, modération, pages, articles, suivi de statistique, le tout avec une bonne sécurité notamment via l'envoi de mail pour les mots de passe ou la vérification de compte."
+    },
+    {
+        "id": "T6U9",
+        "picture": "/images/seo-esgi/home.png",
+        "title": "ViteButNotTooMuch",
+        "subtitle": "Projet SEO",
+        "wip": false,
+        "link": "https://vitebutnottoomuch.vercel.app/",
+        "figures" : [
+            "/images/seo-esgi/home.png"
+        ],
+        "tags": [
+            {
+                "url": "/images/icons/htmlcss.svg",
+                "name": "HTML & CSS"
+            },
+            {
+                "url": "/images/icons/nextjs.svg",
+                "name": "NextJS"
+            },
+            {
+                "url": "/images/icons/git.svg",
+                "name": "Git"
+            }
+        ],
+        "upsides": [
+            "Utilisation de NextJS",
+            "Utilisation de Vercel pour l'hébergement",
+            "Création d'un sitemap et d'un robots.txt",
+            "Optimisation SEO"
+        ],
+        "downsides": [
+            "Pas de base de données",
+            "Pas de fonctionnalités avancées",
+            "Pas de système d'authentification"
+        ],
+        "description": "Ce projet a été réalisé dans le cadre de mon cours de SEO à l'ESGI. J'ai utilisé NextJS pour créer un site vitrine optimisé pour le référencement naturel. J'ai également mis en place un sitemap et un robots.txt pour améliorer l'indexation du site par les moteurs de recherche. Visitez le pour aider à faire monter le site dans les résultats de recherche !"
     }
 ]
