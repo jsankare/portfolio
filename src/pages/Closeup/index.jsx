@@ -172,8 +172,9 @@ const Closeup = () => {
     return (
         <Container>
         <Helmet>
-            <title>JSankare - Projet</title>
-            <meta name="description" content="Découvrez en détail ce projet dans mon portfolio en ligne. En tant que développeur web frontend, j'ai conçu et développé cette expérience numérique en utilisant des technologies modernes pour créer une interface utilisateur intuitive et engageante." />
+            <title>{project.title}</title>
+            <meta name="description" content={project.description} />
+            <meta name="title" content={project.title} />
         </Helmet>
         <StyledCarousel showThumbs={false}>
             {project.figures.map((figure, index) => (
